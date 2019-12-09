@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<link rel="stylesheet" href="css/resume.css">
+	</head>
+	<body>
+		<div class="a">
+			<div class="b">
+				<img class="me" src="img/me.jpg">
+				<p><font size="36px">陳翰</font></p>
+				<p>中原大學-資訊管理學系</p>
+				<p><i>『今日事，今日畢』</i></p>
+				<div class="d">
+					<p><font size="34px">程式技能</font></p>
+					<p>HTML</p>
+					<div class="container">
+						<div class="skills html">80%</div>
+					</div>
+					<p>CSS</p>
+					<div class="container">
+						<div class="skills css">60%</div>
+					</div>
+					<p>JavaScript</p>
+					<div class="container">
+						<div class="skills js">50%</div>
+					</div>
+					<p>Java</p>
+					<div class="container">
+						<div class="skills java">70%</div>
+					</div>
+					<p>C#</p>
+					<div class="container">
+						<div class="skills c1">70%</div>
+					</div>
+				</div>
+				<div class="e">
+					<p><font size="34px">聯絡我</font></p>
+					<p><a href="mailto:iy56789465@gmail.com">寄信給我</a></p>
+				</div>
+			</div>
+			<div class="c">
+				<div class="exp">
+					<p><font size="25px">學歷</font>
+						<p>國小| 新明小學</p>
+						<p>國中| 新明中學</p>
+						<p>高中| 中壢高中</p>
+						<p>大學| 中原大學</p>
+						<p><font size="25px">學習經歷</font></p>
+						<div class="mar">
+							<button class="butt">大一上|企業概論</button>
+							<div class="in">
+								<img class="pic" src="img/1.jpg">
+								<img class="pic" src="img/2.jpg">
+								<p class="w1">大學的第一個學期，組員們在企業概論課程中，第一次接觸了企業行銷的策略，而我們不只是學習空洞的學識，更是實際的以小組的方法，親身體驗了販賣商品行銷的過程，當中會碰到的困難以及挫折。不論是如何與業主進行良好的溝通、時間流程管理的安排以及銷售上會碰到的鐵板。組員們在挫折中成長，知道了該如何用有條理不失禮貌的方法與業主以及買家溝通，如何更有效的安排時程，更重要的，如何盡力遵循時間表，碰到真的無法避免的困難導致時程延宕時，能盡力補救，在行銷上，審視自己商品的目標客群，並且熟悉不管是粉絲專頁、商品網站、廣告影片等的銷售策略。組員們充分的在這學期，以一個團隊的姿態，完成了行銷的任務，學到了寶貴的實做經驗</p>
+							</div>
+						</div>
+						<div class="mar">
+							<button class="butt">大一下|管理學</button>
+							<div class="in">
+								<img class="pic" src="img/3.jpg">
+								<img class="pic" src="img/4.jpg">
+								<p class="w1">在這次服務的過程當中，我們跟著動服社的社員們學習了如何跟狗狗相處，野參與了帶狗散步、洗澡的過程，我了解到既然養了一隻動物就要對他負責，千萬不要隨意拋棄動物，以領養代替購買。而淨灘的活動也讓我了解到了海灘上的垃圾實在比我們想像中多太多，隨地一看都是垃圾，其中更不乏大型的垃圾，海洋垃圾是我們急需關注的一項問題，不要再傷害海洋這個美麗的生態了。</p>
+							</div>
+						</div>
+						<div class="mar">
+							<button class="butt">大二上|個人網頁</button>
+							<div class="in">
+								<img class="pic" src="img/5.jpg">
+								<p class="w1">大二開始在多媒體程式設計學習如果做網頁前端，課程可以說是進大學以來作業最多的，我們需要自己獨立製作一個網頁，雖然相對其他課程較辛苦，但是學到的也更多，程式能力也變強了!!!。</p><br>
+								<p class="w1"><a href="https://iy56789465.github.io/me/">點我進入個人網頁</a></p>
+							</div>
+						</div>
+						<div class="mar">
+							<button class="butt">大二上|期中專案</button>
+							<div class="in">
+								<p class="w1">跟同組成員一同完成的期中專案，不只要做網頁，還要想點子拍影片，雖然耗費時間但過程有趣!!!</p>
+								<p class="w1"><a href="https://ling1028.github.io/exam.github.io/mv.html">點我進入專案網頁</a></p>
+								<p class="w1"><a href="https://youtu.be/DfBChc2fX90">點我進入專案影片</a></p>
+							</div>
+						</div>
+						<script>
+							var acc = document.getElementsByClassName("butt");
+							var i;
+							for (i = 0; i < acc.length; i++) {
+								acc[i].addEventListener("click", function() {
+								this.classList.toggle("active");
+									var panel = this.nextElementSibling;
+								if (panel.style.display === "block") {
+									panel.style.display = "none";
+								} else {
+									panel.style.display = "block";
+						}
+						});
+						}
+						</script>
+						<p><font size="25px">工作經歷</p>
+						<div class="time">
+							<ul class="timeline">
+								<li>
+									<h1><font color="blue">2017</font></h1>
+									<p>於補習班擔任英文教師</p>
+								</li>
+								<li>
+									<h1><font color="blue">2018</font></h1>
+									<p>於補習班擔任英文教師，以及國中家教</p>
+								</li>
+								<li>
+									<h1><font color="blue">2019</font></h1>
+									<p>於補習班擔任英文教師，國中及高中家教</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</body>
+			</html>
